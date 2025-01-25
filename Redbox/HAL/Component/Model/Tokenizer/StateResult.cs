@@ -1,4 +1,3 @@
-
 namespace Redbox.HAL.Component.Model.Tokenizer
 {
     public enum StateResult

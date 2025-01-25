@@ -1,4 +1,3 @@
-
 using System.Threading;
 
 namespace Redbox.HAL.Component.Model.Threading

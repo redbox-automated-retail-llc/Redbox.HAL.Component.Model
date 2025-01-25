@@ -1,4 +1,3 @@
-
 using ICSharpCode.SharpZipLib.GZip;
 using System;
 using System.IO;

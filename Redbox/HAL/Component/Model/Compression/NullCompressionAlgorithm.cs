@@ -1,4 +1,3 @@
-
 namespace Redbox.HAL.Component.Model.Compression
 {
     internal sealed class NullCompressionAlgorithm : ICompressionAlgorithm

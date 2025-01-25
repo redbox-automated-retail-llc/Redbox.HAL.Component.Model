@@ -1,4 +1,3 @@
-
 namespace Redbox.HAL.Component.Model.Compression
 {
     public static class CompressionAlgorithmFactory

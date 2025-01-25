@@ -1,4 +1,3 @@
-
 namespace Redbox.HAL.Component.Model
 {
     public interface IPickerSensorReadResult : IReadInputsResult<PickerInputs>

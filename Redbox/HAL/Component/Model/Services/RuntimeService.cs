@@ -1,4 +1,3 @@
-
 using Microsoft.Win32;
 using Redbox.HAL.Component.Model.Extensions;
 using Redbox.HAL.Component.Model.Timers;

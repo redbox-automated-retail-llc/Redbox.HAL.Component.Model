@@ -1,4 +1,3 @@
-
 using SevenZip.Compression.LZMA;
 
 namespace Redbox.HAL.Component.Model.Compression

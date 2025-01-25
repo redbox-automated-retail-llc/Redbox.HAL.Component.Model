@@ -1,4 +1,3 @@
-
 using System.Security.Cryptography;
 
 namespace Redbox.HAL.Component.Model

@@ -1,4 +1,3 @@
-
 using System;
 
 namespace Redbox.HAL.Component.Model.Attributes

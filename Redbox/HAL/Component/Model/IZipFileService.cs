@@ -1,4 +1,3 @@
-
 using System.Collections.Generic;
 
 namespace Redbox.HAL.Component.Model

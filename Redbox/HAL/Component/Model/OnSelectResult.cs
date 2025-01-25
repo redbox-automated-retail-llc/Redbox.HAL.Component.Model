@@ -1,4 +1,3 @@
-
 using System.Data.Common;
 
 namespace Redbox.HAL.Component.Model
