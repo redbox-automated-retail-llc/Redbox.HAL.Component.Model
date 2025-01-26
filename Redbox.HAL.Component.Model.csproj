@@ -53,12 +53,8 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
-      <HintPath>$(SolutionDir)packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="SevenZip, Version=19.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>$(SolutionDir)packages\SevenZip.19.0.0\lib\net20\SevenZip.dll</HintPath>
-    </Reference>
+    <PackageReference Include="SharpZipLib" Version="0.86.0" />
+    <PackageReference Include="SevenZip" Version="19.0.0" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
@@ -289,9 +285,6 @@
     <Compile Include="Redbox\HAL\Component\Model\Attributes\XmlConfigurationAttribute.cs" />
     <Compile Include="SevenZip\Compression\LZMA\SevenZipHelper.cs" />
     <Compile Include="AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
